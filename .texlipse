@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Mon Jun 13 15:08:16 CDT 2016
+markTmpDer=true
+builderNum=2
+outputDir=out
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=Procedures Manual.tex
+outputFile=Procedures Manual.pdf
+langSpell=en
+markDer=true
+srcDir=src
