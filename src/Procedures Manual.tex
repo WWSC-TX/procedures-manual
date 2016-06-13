@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{fix-cm}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\graphicspath{{images/}}
+
+\titleformat{\section} {\huge\scshape}{\thesection}{1em}{}
+
+\hypersetup{
+	pageanchor=false,
+	colorlinks,
+	linkcolor={blue!80!black},
+	urlcolor={blue!80!black}
+}
+\pagenumbering{gobble}
+
+\overfullrule=1mm
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\uppercase{\fontsize{1.5cm}{2.5cm}\selectfont\textbf{Office\\Procedures}}
+\vfill
+\includegraphics[height=1.3cm]{logo}
+\uppercase{\huge\textbf{Weston Water Supply\\Corporation}}
+\\
+{\huge P.O. Box 158\\Weston, Texas 75097\\(972) 382-2445}
+\vfill
+{\huge\textbf{Revised 07-2016}}
+\end{center}
+\end{titlepage}
+
+\include{office-duties}
+\include{computer-files}
+\include{email-internet-website}
+\include{office-supplies}
+\include{meeting-preparation}
+\include{end-of-month}
+\include{posting-payments}
+\include{meter-readings}
+\include{other}
+\end{document}
